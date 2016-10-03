@@ -1,12 +1,21 @@
 <head>
+
+    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.12/css/jquery.dataTables.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.8/js/jquery.dataTables.min.js"></script>
+
   <title>datatable-editor</title>
 </head>
 
 <body>
-  <h1>Datatable Editor Test</h1>
+  <h1>DataTable Editor</h1>
 
   <!--{{> hello}}
   {{> info}}-->
+
+  {{> dataTableEditor}}
+  <!--{{> tabular table=TabularTables.Books class="table table-striped table-bordered table-condensed" id="Books"}}-->
 </body>
 
 <!--
@@ -26,6 +35,7 @@
 </template>
 -->
 
-<template name="datatableEditor">
-
+<template name="dataTableEditor">
+    <h1>DataTable</h1>
+    {{> tabular table=TabularTables.Books}}
 </template>

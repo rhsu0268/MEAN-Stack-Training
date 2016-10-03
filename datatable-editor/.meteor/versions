@@ -1,5 +1,7 @@
+aldeed:tabular@1.6.0
 allow-deny@1.0.5
-autopublish@1.0.7
+anti:i18n@0.4.3
+aslagle:reactive-table@0.8.35
 autoupdate@1.2.11
 babel-compiler@6.9.1
 babel-runtime@0.1.11
@@ -37,6 +39,7 @@ livedata@1.0.18
 logging@1.1.15
 meteor@1.2.17
 meteor-base@1.0.4
+meteor-platform@1.2.6
 minifier-css@1.2.14
 minifier-js@1.2.14
 minimongo@1.0.17
@@ -51,10 +54,12 @@ observe-sequence@1.0.12
 ordered-dict@1.0.8
 promise@0.8.7
 random@1.0.10
+reactive-dict@1.1.8
 reactive-var@1.0.10
 reload@1.1.10
 retry@1.0.8
 routepolicy@1.0.11
+session@1.1.6
 shell-server@0.2.1
 spacebars@1.0.13
 spacebars-compiler@1.0.13

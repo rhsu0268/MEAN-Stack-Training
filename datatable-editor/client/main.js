@@ -3,12 +3,35 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 
+
+
+Meteor.subscribe('books');
+
+
+
+
 /*
-Template.hello.onCreated(function helloOnCreated() {
-  // counter starts at 0
-  this.counter = new ReactiveVar(0);
+Template.dataTableEditor.onCreated(function dataTableEditorCreated() {
+    // counter starts at 0
+    //this.counter = new ReactiveVar(0);
+    //$('#example').DataTable();
+
 });
 
+Template.dataTableEditor.rendered = function()
+{
+
+    //$('#example').DataTable();
+    //$('#example');
+    //console.log($('#example'));
+
+
+}
+*/
+
+
+
+/*
 Template.hello.helpers({
   counter() {
     return Template.instance().counter.get();
@@ -22,17 +45,3 @@ Template.hello.events({
   },
 });
 */
-
-Template.datatableEditor.onCreated(function datatableEditorOnCreated() {
-    //var editor = new $.fn.dataTable.Editor( {} );
-
-    //console.log(editor);
-    var editor = new $.fn.dataTable.Editor( {} );
-    console.log(editor);
-});
-
-if (Meteor.isClient)
-{
-    var editor = new $.fn.dataTable.Editor( {} );
-    console.log(editor);
-}
