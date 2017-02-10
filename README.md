@@ -1,1 +1,1 @@
-# MEAN Stack Training Materialsx
+# MEAN Stack Training Materials
