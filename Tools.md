@@ -141,6 +141,25 @@ This starts the project and uses port 3000 as a default. Go into the browser and
 
 Congratualations! You made it to the end. To terminate the server, hit Ctrl + C. Note that you should also terminate mongoDB as well. The command is given earlier in the walkthrough.
 
+## Updating Repository
+
+There are three commands you want to be familiar with when you want to make updates to your repo on github. First, add the files to staging:
+
+```bash
+$ git add --all
+```
+Next, give your commit a message
+
+```bash
+$ git commit -m "More changes"
+```
+
+Finally, push your commit to github:
+
+```bash
+$ git push origin master
+```
+
 
 ## Updating Repository
 
