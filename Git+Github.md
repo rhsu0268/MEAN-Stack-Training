@@ -23,7 +23,7 @@ Give your project a name and an optional description.
 
 ![alt text](github-2.png "Logo Title Text 1")
 
-Also, I like to initialize my projects with a README which contains information about the project.
+Also, I like to initialize my projects with a README which contains information about the project so check that box to initialize with README.
 
 You should have a project page that looks like the following:
 
@@ -60,4 +60,4 @@ Next, the final step, you should now be able to push your changes to github with
 git push origin master
 ```
 
-Congrats! You did it. Now, share that project url with me on Slack so that I know you can successfully do this. 
+Congrats! You did it. Now, share that project url with me on Slack so that I know you can successfully do this.
