@@ -1,0 +1,23 @@
+# MEAN Stack - Checking your understanding
+
+1. What is AngularJS and what do we use it for with respect to MEAN Stack?
+
+2. Describe what a model is with respect to MongoDB. How would I construct a model for a Car object?
+
+3. What is an example of an Angular directive?
+
+4. What happens in a 404 Not Found?
+
+5. What tools do we have in our toolbox for debugging when writing javascript applications?
+
+6. What roles does node packages play in MEAN stack development?
+
+7. What is $scope in the context of an angular controller?
+
+8. Suppose I want to create a page for the user to register his or her name for an event.
+What steps would I take to develop this?
+
+9. Where would code for manipulating the database be found and why?
+
+10. Suppose I want to change the color of a button to red when I hover over it?
+What steps would I take to develop this?

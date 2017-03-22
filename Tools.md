@@ -160,7 +160,6 @@ Finally, push your commit to github:
 $ git push origin master
 ```
 
-
 ## Updating Repository
 
 Whenever changes are made, you want to pull down the latest version of the project from github:
