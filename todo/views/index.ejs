@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="home">
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+    <script src="/javascripts/index.js"></script>
+  </head>
+  <body ng-controller="ListCtrl">
+    <h1>TO DO LIST</h1>
+
+    <ul ng-repeat="task in toDoList">
+        <li>{{task}}</li>
+    </ul>
+
+
+    <input ng-model="newTask"></input>
+    <button ng-click="AddItem()">Add</button>
+    <p></p>
+  </body>
+</html>
