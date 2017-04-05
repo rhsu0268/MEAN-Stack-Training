@@ -63,4 +63,6 @@ Now, to review the things that we learned in this README, here are two exercises
 
 2. Now, you will notice that I added a field for due date and in the process I seemed to have broken the back end of the application so that new tasks are not being saved properly. Have a look at the routes and see if you can fix the app so that I am saving both the name of the task and its due date. (Hint: I would look at the models to see what schema is defined.)
 
+I would start with cloning my MEAN-Stack-Training Repo. Cd into todo and start up mongo and do npm start.
+
 Good luck!
