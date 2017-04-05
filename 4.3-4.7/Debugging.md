@@ -35,7 +35,7 @@ Here's an example of making some text bold and things didn't go according to pla
 <b>This is a sentence that is in bold.<b>This is a sentence that is not supposed to be bold.
 ```
 
-Here, we made the first sentence bold but the second is also bold because we didn't close off that second <b> tag. Errors like this are quite common but note that these are not going to generate errors on your screen.
+Here, we made the first sentence bold but the second is also bold because we didn't close off that second "<b>" tag. Errors like this are quite common but note that these are not going to generate errors on your screen.
 
 Second, when you're working with Angular, typos and errors will appear on your developer's console if you're using chrome.
 
