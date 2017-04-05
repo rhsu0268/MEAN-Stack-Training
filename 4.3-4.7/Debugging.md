@@ -31,7 +31,7 @@ If you're working with a front end task in HTML, or CSS, markup fails "silently.
 
 Here's an example of making some text bold and things didn't go according to plan:
 
-```
+```html
 <b>This is a sentence that is in bold.<b>This is a sentence that is not supposed to be bold.
 ```
 
