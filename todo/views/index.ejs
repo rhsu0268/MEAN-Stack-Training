@@ -12,11 +12,12 @@
     <h1>TO DO LIST</h1>
 
     <ul ng-repeat="task in toDoList">
-        <li>{{task}}</li>
+        <li class=done-{{task.done}} ng-model="task.done">{{task.task}} <button ng-click="MarkComplete(task)">Complete</button></li>
     </ul>
 
 
-    <input ng-model="newTask"></input>
+    <input ng-model="newTask.task" placeholder="Task"></input>
+    <input ng-model="newTask.dueDate" placeholder="Due Date"></input>
     <button ng-click="AddItem()">Add</button>
     <p></p>
   </body>

@@ -11,13 +11,11 @@ router.get('/', function(req, res, next) {
 });
 
 
-router.post('/saveTask/:taskName', function(req, res, next) {
+router.post('/saveTask/:task', function(req, res, next) {
 
-    console.log(req.params.taskName);
-    //console.log(req.body);
+    var newTask = JSON.parse(req.params.task);
 
     var task = new Task();
-    task.Task = req.params.taskName;
     task.save(function(err, task) {
         if (err)
         {
