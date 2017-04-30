@@ -1,0 +1,20 @@
+<html ng-app="everydayTasks">
+    <head>
+        <title>everydayTasks</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+        <script src="/javascripts/everydayTasks.js"></script>
+    </head>
+    <body ng-controller="everydayTasksCtrl">
+        <h1>todo list for the day</h1>
+
+        <ul ng-repeat="task in toDoList">
+            <li>{{task.TaskName}} <input ng-model="updatedTask" placeholder="UpdatedTask"></input><button ng-click="UpdateItem(task.TaskName, updatedTask)">Update</button><button ng-click="DeleteItem(task)">Delete</button></li>
+        </ul>
+
+        <input ng-model="task" placeholder="Task"></input>
+        <button ng-click="AddItem()">Add</button>
+    </body>
+
+</html>
